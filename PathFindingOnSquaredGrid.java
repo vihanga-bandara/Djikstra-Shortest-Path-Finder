@@ -11,7 +11,7 @@ public class PathFindingOnSquaredGrid {
 	static int choice;
 
 	// given an N-by-N matrix of open cells, return an N-by-N matrix
-	// of cells reachable from the top
+	// of cells reachable from the top.
 	public static boolean[][] flow(boolean[][] open) {
 		int N = open.length;
 
